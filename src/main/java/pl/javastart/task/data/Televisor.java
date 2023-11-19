@@ -5,12 +5,12 @@ public class Televisor {
     private boolean isPlayed = false;
 
     public boolean turnOn() {
-        setPlayed(true);
+        isPlayed = true;
         return isPlayed;
     }
 
     public boolean turnOff() {
-        setPlayed(false);
+        isPlayed = false;
         return isPlayed;
     }
 
